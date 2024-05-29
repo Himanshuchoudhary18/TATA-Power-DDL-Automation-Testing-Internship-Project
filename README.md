@@ -13,8 +13,9 @@ Setup
 Clone the repository:
 
 sh
+
 Copy code
-git clone https://github.com/your-username/selenium-tata-power-automation.git
+git clone https://github.com/Himanshuchoudhary18/TATA-Power-DDL-Automation-Testing-Internship-Project.git
 cd selenium-tata-power-automation
 Install dependencies:
 This project uses WebDriverManager for managing browser drivers. Ensure you have Maven installed, then run:
@@ -43,9 +44,9 @@ The program will launch the specified web browser, navigate to the Tata Power-DD
 5. Submit the form.
 6. Detailed Steps
 Step 1: Handle Advertisement/Pop-up
-Wait for the advertisement pop-up and close it.
+Please wait for the advertisement pop-up and close it.
 
-Step 2: Navigate to New Connection Form
+Step 2: Navigate to the New Connection Form
 Click on the appropriate buttons to navigate to the new connection form.
 
 Step 3: Verify Phone Number and OTP
@@ -68,6 +69,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any issues or questions, please create an issue in the repository or contact the maintainer at your-email@example.com.
+If you have any issues or questions, please create an issue in the repository or contact the maintainer at himanshuchoudhsary1@gmail.com.
 
-Disclaimer: This automation script is intended for educational purposes only. Ensure you have permission to automate interactions with any website before doing so. Use responsibly.
+**Disclaimer**: 
+This automation script is intended for educational purposes only. Ensure you have permission to automate interactions with any website before doing so. Use responsibly.
