@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+        <listeners>
+            <listener class-name="org.example.ITestListener1"></listener>
+<!--        // This bellow listener is going to create a attractive and well managed report for each and every test case, we just have to add it in our testNG.xml file -->
+            <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        </listeners>
+    <test verbose="2" preserve-order="true" name="D:/CS STUDY MATERIAL/Eclipse workpace/.metadata/TATA POWER DDL AUTOMATION/pom.xml">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+<!--            <class name="org.example.Main"/>-->
+            <class name="org.example.Main"/>
+        </classes>
+    </test>
+</suite>
